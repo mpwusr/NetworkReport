@@ -1,4 +1,3 @@
-```markdown
 # Network Packet Analysis Report Generator
 
 This Python script generates a comprehensive PDF report analyzing network packet captures. It processes CSV files (converted from Wireshark PCAP files), performs protocol-specific analysis, and creates visualizations and tabulated summaries.
@@ -25,8 +24,6 @@ This Python script generates a comprehensive PDF report analyzing network packet
 ## Requirements
 ```bash
 pip install pandas matplotlib fpdf
-```
-Additionally, you'll need Wireshark installed to convert PCAP files to CSV.
 
 ## Usage
 ### Step 1: Convert PCAP Files to CSV
